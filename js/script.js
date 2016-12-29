@@ -285,7 +285,7 @@ $.getJSON('./js/cdistricts.geojson', function(data) {
             window.data = data;
             var geojsonLayer4 = L.geoJson(data.features, {
                 style: {
-                    radius: 6,
+                    radius: 4,
                     weight: "2",
                     opacity: "1",
                     fillOpacity: "1",
